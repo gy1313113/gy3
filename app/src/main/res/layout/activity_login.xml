@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="@drawable/background_login_main"
+    tools:ignore="PxUsage">
+    <!--
+    tools:ignore="PxUsage"
+    消去px的警告
+    -->
+
+    <RelativeLayout
+        android:layout_width="800px"
+        android:layout_height="700px"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="550px"
+        android:background="@drawable/background_login">
+
+        <EditText
+            android:id="@+id/login_phone"
+            android:layout_width="500px"
+            android:layout_height="100px"
+            android:layout_marginStart="200px"
+            android:layout_marginTop="150px"
+            android:hint="账号"
+            android:textSize="30px"
+            android:textColorHint="@color/bg_color_gray"
+            android:textColor="@color/bg_color_gray"
+            android:inputType="phone"
+            android:background="@drawable/login_input"/>
+
+        <EditText
+            android:id="@+id/login_password"
+            android:layout_width="500px"
+            android:layout_height="100px"
+            android:layout_marginStart="200px"
+            android:layout_below="@+id/login_phone"
+            android:layout_marginTop="80px"
+            android:hint="密码"
+            android:textSize="30px"
+            android:textColorHint="@color/bg_color_gray"
+            android:textColor="@color/bg_color_gray"
+            android:inputType="numberPassword"
+            android:background="@drawable/login_input"/>
+
+        <ImageView
+            android:layout_width="80px"
+            android:layout_height="80px"
+            android:src="@drawable/usernameicon"
+            android:layout_marginTop="160px"
+            android:layout_marginStart="80px"/>
+
+        <ImageView
+            android:layout_width="80px"
+            android:layout_height="80px"
+            android:src="@drawable/password"
+            android:layout_marginTop="340px"
+            android:layout_marginStart="80px"/>
+
+        <Button
+            android:id="@+id/login_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="登录"
+            android:textSize="60px"
+            android:background="@drawable/login_button"
+            android:layout_marginBottom="30px"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/login_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+        android:padding="30px"
+        tools:ignore="RtlSymmetry" />
+
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fadeScrollbars="false"
+    tools:ignore="PxUsage">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="350px">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10px"
+            android:text="小游戏玩法说明:\n1.使用体感控制主人公上下左右移动\n2.吃金币来赚取分数\n3.躲避怪物，被抓到则游戏结束"
+            android:textSize="60px"
+            android:textColor="@color/pink"/>
+    </RelativeLayout>
+
+</ScrollView>

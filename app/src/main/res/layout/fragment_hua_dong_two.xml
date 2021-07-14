@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fadeScrollbars="false"
+    tools:ignore="PxUsage">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="350px">
+        <TextView
+            android:id="@+id/hua_dong_two_tv_link"
+            android:layout_centerHorizontal="true"
+
+            android:layout_marginTop="200px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="http://community.kq-china.net:8081/news"
+            android:textSize="30px"
+            android:textColor="@color/orange"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100px"
+            android:text="科强社区地址："
+            android:textSize="60px"
+            android:textColor="@color/pink"/>
+    </RelativeLayout>
+
+</ScrollView>

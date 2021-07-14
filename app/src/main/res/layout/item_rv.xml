@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="30px"
+    android:paddingRight="30px"
+    android:paddingTop="15px"
+    android:paddingBottom="15px"
+    android:background="#CCCCCC"
+    tools:ignore="PxUsage">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/item_rv_background">
+        <TextView
+            android:id="@+id/rv_tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="50px"
+            android:layout_marginTop="40px"
+            android:textColor="@color/bg_color_sky_blue"
+            android:textSize="40px" />
+
+        <TextView
+            android:id="@+id/rv_tv_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rv_tv_title"
+            android:layout_marginStart="50px"
+            android:layout_marginTop="40px"
+            android:textSize="30px"
+            android:textColor="@color/bg_color_water_blue"
+            />
+
+        <TextView
+            android:id="@+id/rv_tv_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rv_tv_content"
+            android:layout_marginStart="50px"
+            android:layout_marginTop="40px"
+            android:textSize="30px"
+            android:textColor="@color/bg_color_water_blue"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>

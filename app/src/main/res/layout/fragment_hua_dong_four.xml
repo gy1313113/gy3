@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fadeScrollbars="false"
+    tools:ignore="PxUsage">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="350px">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="模具产量显示:\n1.模具名称、id和产量以列表形式显示\n2.通过改变右上角的月份可显示不同月份的产量\n3.搜索框可输入想要搜索的模具名称，以此来找到该模具"
+            android:textSize="50px"
+            android:textColor="@color/pink"/>
+    </RelativeLayout>
+
+</ScrollView>

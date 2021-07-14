@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="pink">#CD96CD</color>
+    <color name="orange">#CD950C</color>
+
+    <color name="colorPrimary">#3A559B</color>
+    <color name="colorPrimaryDark">#3A559B</color>
+    <color name="colorAccent">#3A559B</color>
+    <color name="colorPress">#324986</color>
+    <color name="colorBlack20">#33000000</color>
+    <color name="colorBlack10">#1A000000</color>
+    <color name="colorTransparent">#00000000</color>
+
+    <!--渐变色 开始-->
+    <color name="colorWorkFrom">#429321</color>
+    <color name="colorWorkTo">#b4ec51</color>
+    <color name="colorFreeFrom">#f76b1c</color>
+    <color name="colorFreeTo">#fad961</color>
+    <color name="colorDiscFrom">#a9b9c6</color>
+    <color name="colorDiscTo">#dfecf8</color>
+    <color name="colorErrorFrom">#9f041b</color>
+    <color name="colorErrorTo">#f5515f</color>
+    <!--渐变色 结束-->
+
+    <!--日历颜色-->
+    <color name="calendar_active_month_bg">#ffffffff</color>
+    <color name="calendar_bg">#ffffffff</color>
+    <color name="calendar_divider">#ffffffff</color>
+    <color name="calendar_inactive_month_bg">#fff</color>
+    <color name="calendar_selected_day_bg">#ff45c1f9</color>
+    <color name="calendar_highlighted_day_bg">#ccffcc</color>
+    <color name="calendar_selected_range_bg">#ffecf8fe</color>
+    <color name="calendar_text_inactive">#0000</color>
+    <color name="calendar_text_middle_range">#ff4a4a4a</color>
+    <color name="calendar_text_active">#ff4a4a4a</color>
+    <color name="calendar_text_selected">#ffffffff</color>
+    <color name="calendar_text_unselectable">#7f778088</color>
+    <color name="calendar_text_highlighted">#ff778088</color>
+
+    <!--Android-PickerView start-->
+    <color name="pickerview_timebtn_nor">#057dff</color>
+    <color name="pickerview_timebtn_pre">#c2daf5</color>
+    <color name="pickerview_bg_topbar">#f5f5f5</color>
+    <color name="pickerview_topbar_title">#000000</color>
+    <color name="pickerview_wheelview_textcolor_out">#a8a8a8</color>
+    <color name="pickerview_wheelview_textcolor_center">#2a2a2a</color>
+    <color name="pickerview_wheelview_textcolor_divider">#d5d5d5</color>
+    <color name="pickerview_bgColor_overlay">#60000000</color>
+    <color name="pickerview_bgColor_default">#FFFFFFFF</color>
+    <!--Android-PickerView end-->
+
+    <color name="colorFixBlueBorder50">#803180F6</color>
+    <color name="colorFixBlueBorder80">#cc3180F6</color>
+    <color name="colorFixBlueBorder">#3180F6</color>
+    <color name="colorFixStatusRed">#EF001D</color>
+    <color name="colorFixStatusGreen">#66DA8A</color>
+
+    <color name="colorFuJiOffline">#dddddd</color>
+    <color name="colorFuJiWork">#6DD400</color>
+    <color name="colorFuJiError">#ec403b</color>
+    <color name="colorRepair">#EC403B</color>
+    <color name="colorTabSelect">#40A9FF</color>
+
+    <color name="produceNowColor">#73D13D</color>
+    <color name="produceWaitColor">#FAAD14</color>
+
+
+    <!--颜色定义的一些约定：
+    对于同一个颜色，只是深浅区别，使用tint和dark表示更浅/更深的颜色，每个设置5个档位，比如
+
+    text_color_blue_dark_5最深
+    text_color_blue_dark_4
+    text_color_blue_dark_3
+    text_color_blue_dark_2
+    text_color_blue_dark
+    text_color_blue：标准颜色值，也是默认使用最多的颜色
+    text_color_blue_tint
+    text_color_blue_tint_2
+    text_color_blue_tint_3
+    text_color_blue_tint_4
+    text_color_blue_tint_5最浅
+
+    // 相近色系，基准色上面的颜色越来越暗，下面越来越亮
+    bg_color_blue_alpha_26
+    bg_color_blue 基准色，上面的颜色越来越暗，下面越来越亮
+    bg_color_sky_blue
+
+    取名规则：${scope}_color_${colorName}[flag]
+    ${scope}:当前色值作用范围，bg：背景，text：文字，line：线条
+    ${colorName}:颜色名称
+    flag:可选，颜色标记，比如表示同一个颜色深浅的，取值tint,dark等
+    -->
+
+    <!--字体颜色=========================================================-->
+    <!--黑色-->
+    <color name="text_color_ccc">#CCCCCC</color>
+    <color name="text_color_bf">#BFBFBF</color>
+    <color name="text_color_999">#999999</color>
+    <color name="text_color_666">#666666</color>
+    <color name="text_color_333">#333333</color>
+    <color name="text_color_black">#000000</color> <!--基准色，上面的颜色越来越暗，下面越来越亮-->
+
+    <!--白色-->
+    <color name="text_color_gray_white">#DDDDDD</color>
+    <color name="text_color_white">#FFFFFF</color> <!--基准色，上面的颜色越来越暗，下面越来越亮-->
+
+    <!--蓝色-->
+    <color name="text_color_blue">#3954A0</color> <!--基准色，上面的颜色越来越暗，下面越来越亮-->
+    <color name="text_color_sky_blue">#40A9FF</color>
+    <color name="text_color_blue_light">#3180F6</color>
+    <color name="text_color_blue_light2">#FF1890FF</color>
+    <color name="text_color_water_blue">#45C1F9</color>
+
+    <!--红色-->
+    <color name="text_color_red">#EE3E3E</color> <!--基准色，上面的颜色越来越暗，下面越来越亮-->
+
+    <!--绿色-->
+    <color name="text_color_green">#FF6BD98d</color> <!--基准色，上面的颜色越来越暗，下面越来越亮-->
+
+    <!--黄颜色-->
+    <color name="text_color_yellow">#FFFB9A55</color> <!--基准色，上面的颜色越来越暗，下面越来越亮-->
+
+    <!--字体颜色=========================================================-->
+
+
+    <!--背景颜色=========================================================-->
+    <!--白色-->
+    <color name="bg_color_gray">#6D6D72</color>
+    <!--相当于bg_color_white_50，但是无透明度，有透明度的颜色不能用在tint属性上-->
+    <color name="bg_color_999">#999999</color>
+    <color name="bg_color_white_alpha_50">#7FFFFFFF</color>
+    <color name="bg_color_gray_bbb">#BBBBBB</color>
+    <color name="bg_color_gray_bf">#BFBFBF</color>
+    <color name="bg_color_gray_ddd">#DDDDDD</color>
+    <color name="bg_color_gray_e8">#E8E8E8</color>
+    <color name="bg_color_gray_white">#EDEDED</color>
+    <!--常用于Activity，Fragment背景色-->
+    <color name="bg_color_gray_white_tint">#F4F4F4</color>
+
+    <color name="bg_color_white">#FFFFFF</color> <!--基准色，上面的颜色越来越暗，下面越来越亮-->
+
+    <!--黑色-->
+    <color name="bg_color_black">#333333</color> <!--基准色，上面的颜色越来越暗，下面越来越亮-->
+    <color name="view_mask">#4f000000</color>
+
+    <!--蓝色-->
+    <color name="bg_color_blue_alpha_26">#1A3A559B</color>
+    <color name="bg_color_blue">#3A559B</color> <!--基准色，上面的颜色越来越暗，下面越来越亮-->
+
+    <!--天蓝色-->
+    <color name="bg_color_sky_blue">#40A9FF</color>
+    <color name="bg_color_sky_blue_tint">#FF61B4FE</color>
+
+    <!--水蓝色-->
+    <color name="bg_color_water_blue">#45C1F9</color>
+    <color name="bg_color_water_blue_tint_3">#b7e9ff</color>
+    <color name="bg_color_water_blue_tint_5">#DBEFFF</color>
+
+    <!--亮蓝-->
+    <color name="bg_color_blue_light">#3180F6</color>
+
+    <!--红色-->
+    <color name="bg_color_red">#EE3E3E</color> <!--基准色，上面的颜色越来越暗，下面越来越亮-->
+
+    <!--黄颜色-->
+    <color name="bg_color_yellow_alpha_32">#1FFB9A55</color>
+    <color name="bg_color_yellow">#FFFB9A55</color> <!--基准色，上面的颜色越来越暗，下面越来越亮-->
+
+    <!--绿色-->
+    <color name="bg_color_green">#8CCD40</color> <!--基准色，上面的颜色越来越暗，下面越来越亮-->
+    <color name="bg_color_green_light">#FF6BD98d</color>
+    <!--背景颜色=========================================================-->
+
+
+    <!--分割线颜色=========================================================-->
+    <color name="line_color_gray_b">#BBBBBB</color>
+    <color name="line_color_gray_d">#DDDDDD</color>
+    <color name="line_color_gray_white">#EDEDED</color> <!--基准色，上面的颜色越来越暗，下面越来越亮-->
+    <!--分割线颜色=========================================================-->
+</resources>
